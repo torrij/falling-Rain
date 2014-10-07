@@ -5,14 +5,6 @@ void ofApp::setup(){
     ofBackground(0, 0, 0);
     ofSetFrameRate(30);
     
-//    for (int i=0; i<10; i++) {
-//        balls[i].x = ofRandomWidth();
-//        balls[i].y = 20;
-//        balls[i].vx = ofRandom(0,1);
-//        balls[i].vy = ofRandom(3,10);
-//        balls[i].radius = ofRandom(10,40);
-//        
-//    }
     
     monoType.loadFont("Cousine-Regular.ttf",20);
     
@@ -95,20 +87,7 @@ for (int i=0; i<28; i++){
 //--------------------------------------------------------------
 void ofApp::update() {
     
-//    for (int i=0; i<10; i++) {
-//        
-//        balls[i].x = balls[i].x + balls[i].vx;
-//        balls[i].y = balls[i].y + balls[i].vy;
-//        
-//        if (balls[i].x<0 || balls[i].x > ofGetWidth()) {
-//            balls[i].vx = -balls[i].vx;
-//        }
-//        
-//        if (balls[i].y<0 || balls[i].y > ofGetHeight()) {
-//            balls[i].vy = -balls[i].vy;
-//        }
-//    }
-    
+
 
     
     for (int i=0; i<(activeLetters); i++){
