@@ -2,13 +2,7 @@
 
 #include "ofMain.h"
 
-struct Ball {
-    int x;
-    int y;
-    int vx;
-    int vy;
-    int radius;
-};
+
 
 
 struct Words {
@@ -41,7 +35,7 @@ public:
     void mouseReleased(int x, int y, int button);
     void windowResized(int w, int h);
     
-    Ball balls[10];
+
     Words words [28];
     Letters letters[4*28];
     
